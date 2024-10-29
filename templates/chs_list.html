@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>List</title>
+</head>
+<body>
+    <h2>Client & Hairdresser List</h2>
+    {% for c in all_c_list %}
+        <h3>Client Name: {{ c.name }}</h3>
+        <ul>
+            <li>Salon Name:{{ c.salon.name }}</li>
+        </ul>
+    {% endfor %}
+</body>
+</html>

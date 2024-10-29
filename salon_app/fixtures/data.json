@@ -1,0 +1,101 @@
+[
+    {
+        "model": "salon_app.hairsalon",
+        "pk": 1,
+        "fields": {
+            "name": "Glamour Studio",
+            "address": "1 Elm St",
+            "phone": "1234567"
+        }
+    },
+    {
+        "model": "salon_app.hairsalon",
+        "pk": 2,
+        "fields": {
+            "name": "Modern Cuts",
+            "address": "4 Maple Ave",
+            "phone": "8987878"
+        }
+    },
+    {
+        "model": "salon_app.hairsalon",
+        "pk": 3,
+        "fields": {
+            "name": "Elegance Hair & Beauty",
+            "address": "6 Oak St",
+            "phone": "4565432"
+        }
+    },
+    {
+        "model": "salon_app.hairdresser",
+        "pk": 1,
+        "fields": {
+            "name": "Alice Johnson",
+            "years_experience": 5,
+            "salon": 1
+        }
+    },
+    {
+        "model": "salon_app.hairdresser",
+        "pk": 2,
+        "fields": {
+            "name": "John Smith",
+            "years_experience": 10,
+            "salon": 2
+        }
+    },
+    {
+        "model": "salon_app.hairdresser",
+        "pk": 3,
+        "fields": {
+            "name": "Emily Davis",
+            "years_experience": 7,
+            "salon": 1
+        }
+    },
+    {
+        "model": "salon_app.hairdresser",
+        "pk": 4,
+        "fields": {
+            "name": "Michael Brown",
+            "years_experience": 15,
+            "salon": 3
+        }
+    },
+    {
+        "model": "salon_app.client",
+        "pk": 1,
+        "fields": {
+            "name": "Jessica Walker",
+            "date_of_birth": "1970-03-03",
+            "salon": 1
+        }
+    },
+    {
+        "model": "salon_app.client",
+        "pk": 2,
+        "fields": {
+            "name": "Daniel Roberts",
+            "date_of_birth": "1960-08-08",
+            "salon": 2
+        }
+    },
+    {
+        "model": "salon_app.client",
+        "pk": 3,
+        "fields": {
+            "name": "Samantha Lee",
+            "date_of_birth": "1977-02-02",
+            "salon": 1
+        }
+    },
+    {
+        "model": "salon_app.client",
+        "pk": 4,
+        "fields": {
+            "name": "Chris Evans",
+            "date_of_birth": "1980-05-05",
+            "salon": 1
+        }
+    }
+]

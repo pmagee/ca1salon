@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Q2</title>
+    </head>
+    <body>
+    {% if error_message %}
+        <p style="color: red;">{{ error_message }}</p>
+    {% else %}
+        {% if client_count is not None %}
+            <p>There are <strong>{{ client_count }}</strong> clients in Glamour Studio.</p>
+        {% else %}
+            <p>No data available.</p>
+        {% endif %}
+    {% endif %}
+    </body>
+</html>

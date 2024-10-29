@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>List</title>
+</head>
+<body>
+    <h1>Client List Page</h1>
+    {% for c in all_c_list %}
+    <h3><a href="{% url 'c_detail' c.pk %}">{{ c.name }}</a></h3>
+    {% endfor %}
+
+    <h2><a href="{% url 'c_new' %}">+New Client</a></h2>
+</body>
+</html>
